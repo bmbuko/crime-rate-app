@@ -1,0 +1,48 @@
+<h1>Spot Crime</h1>
+<form action="/crime" method="post">
+    <div class="report">
+        <h3>Report crime</h3>
+    </div>
+
+    <div class="crime">
+        <h4>Type of crime</h4>
+        <input type="text" name="typeOfCrime">
+        <br><br>
+    </div>
+
+    <hr>
+
+    <div class="involve">
+        <h4>involvement</h4>
+        <input type="radio" name="involvement" value="Heard">Heard
+
+        <input type="radio" name="involvement" value="Seen">Seen
+
+        <input type="radio" name="involvement" value="involved"> Involved<br />
+    </div>
+    <hr>
+
+    <div class="time">
+        <h4>Time of the day</h4>
+        <input type="radio" name="period" value="morning">
+        <label for="day1">Morning</label>
+
+
+        <input type="radio" name="period" value="day">
+        <label for="day2">Afternoon</label>
+
+
+        <input type="radio" name="period" value="night">
+        <label for="day3">Evening</label>
+
+
+        <hr>
+    </div>
+
+
+    <div class="sub">
+        <input type="submit" value="Submit">
+
+    </div>
+
+</form>

@@ -1,0 +1,37 @@
+<div class="row">
+
+    <table>
+        <tr>
+            <th>
+                Type
+            </th>
+
+            <th>
+                When
+            </th>
+
+            <th>
+                Involvement
+            </th>
+        </tr>
+
+        {{#each crimes}}
+        <tr>
+            <td>
+                {{type}}
+            </td>
+
+            <td>
+                {{involment}}
+            </td>
+
+
+            <td>
+                {{time_of_the_day}}
+            </td>
+        </tr>
+
+        {{/each}}
+    </table>
+
+</div>
